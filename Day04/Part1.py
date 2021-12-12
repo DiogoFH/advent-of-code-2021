@@ -1,7 +1,7 @@
 #__ficheiro = 'sampleInput.txt'
 __ficheiro = 'input.txt'
 
-from Day4.tabuleiro import Tabuleiro
+from Day04.tabuleiro import Tabuleiro
 
 def solver():
     with open(__ficheiro, 'r') as f:
