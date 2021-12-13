@@ -1,7 +1,6 @@
 #__ficheiro, tamanho = 'sampleInput.txt', 10
 __ficheiro, tamanho = 'input.txt', 1000
 
-tamanho = 1000
 matriz = [[0 for x in range(tamanho)] for y in range(tamanho)]
 
 def solver():
