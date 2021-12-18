@@ -19,16 +19,18 @@ def solver():
     
     # print(stepSet)
     maxY = 0
+    maxStep = 0
     # for step in stepSet:
     for step in range(1, 100000):      #Fuck it!
         # print(step, getMaxVInit(step, minTargetY, maxTargetY))
         maxYStep = getMaxVInit(step, minTargetY, maxTargetY)
         if maxYStep is not None and maxYStep > maxY:
             maxY = maxYStep
+            maxStep = step
             
     print(maxY)
     print(maxHeight(maxY))
-
+    print(maxStep)
 
 
 def maxHeight(initialY):

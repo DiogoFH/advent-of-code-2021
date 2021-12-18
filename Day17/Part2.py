@@ -21,7 +21,7 @@ def solver():
         for step in steps:
             ySet = set.union(ySet,getYList(step, minTargetY, maxTargetY))
             if x == step :
-                for infinityStep in range(step+1, 100000):      #Fuck it x2!
+                for infinityStep in range(step+1, 353):      #Fuck it x2!
                     ySet = set.union(ySet,getYList(infinityStep, minTargetY, maxTargetY))
         count += len(ySet)
         
